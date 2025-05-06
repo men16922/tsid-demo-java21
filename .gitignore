@@ -1,0 +1,61 @@
+# Java & Gradle
+*.class
+*.log
+*.jar
+*.war
+*.iml
+*.hprof
+hs_err_pid*
+
+# Build & Gradle
+/build/
+/out/
+/!gradle/wrapper/gradle-wrapper.jar
+
+# IDEs
+.idea/
+*.iws
+*.ipr
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Runtime files
+*.pid
+
+# Local env files
+.env
+*.env.local
+*.env.*.local
+
+# PostgreSQL dump or data
+*.sql
+*.dump
+
+# IntelliJ run configs
+.idea/runConfigurations/
+
+# VSCode
+.vscode/
+
+# Docker
+docker-compose.override.yml
+**/mysql-data/
+**/postgres-data/
+
+# Swagger
+springdoc-openapi.json
+springdoc-openapi.yaml
+
+# Test output
+/test-output/
+/test-reports/
+
+# TSID export or debug files
+tsid-debug.log
